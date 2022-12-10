@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-img{
+    background-image: url(components/assets/background.png);
+}
+
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+.nav-link {
+    color: black !important;
+    margin: 10px 0;
+}
+.nav-group {
+    background-color: white !important;
+}
+.simplebar-content {
+    margin-top: 20px;
+}
+.nav-group-toggle:focus {
+    background-color: white !important;
+}
+.nav-item:hover {
+    background-color: #F66F4D !important;
+}
+.nav-item {
+    background-color: white !important;
+}
+
+input[type="search"] {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 7px 8px;
+    font-size: 14px;
+    color: inherit;
+    border: 1px solid #F66F4D;
+    border-radius: 5px;
+  }
+
+footer p {
+    text-align: center !important;
+}
